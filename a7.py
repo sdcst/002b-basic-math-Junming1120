@@ -10,4 +10,10 @@ Read through the file **example1.py** for information on using the math module.
 * Round the temperature in C to 1 decimal place and print the result
 * You will require the use of the round() function from example1.py
 '''
-
+F = 62.5
+x = 5/9
+y = F-32
+C = x*y
+numDecimals = 1
+C = round(C , numDecimals)
+print(C)
